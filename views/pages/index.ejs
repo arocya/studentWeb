@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <% include ../partials/header.ejs %>
+</head>
+
+<body>
+
+  <% include ../partials/nav.ejs %>
+
+<div class="jumbotron text-center">
+
+  <div class="container">
+    <a href="/" class="lang-logo">
+      <img src="/unnamed.jpg">
+    </a>
+    <h1>Arion Almond</h1>
+    <h2>Developer. Student. Teaching Assistant. Ping Pong Enthusiast.</h2>
+
+    <a type="button" class="btn btn-lg btn-default"
+    href="http://www.mbird.com/wp-content/uploads/2012/07/tumblr_m3b0anGHPD1qje60io1_1280.jpg">
+    <span class="glyphicon glyphicon-flash"></span> By Day
+    </a>
+    <a type="button" class="btn btn-lg btn-default"
+    href="http://cdn.collider.com/wp-content/uploads/the-dark-knight-rises-christian-bale-batman-image1.jpg">
+    <span class="glyphicon glyphicon-flash"></span> By Night
+    </a>
+    <a type="button" class="btn btn-lg btn-primary"
+    href="https://github.com/heroku/node-js-getting-started">
+    <span class="glyphicon glyphicon-download"></span>Original Project on GitHub</a>
+
+    <h2>
+        Actually...
+    </h2>
+    <a type="button" class="btn btn-lg btn-default"
+    href="http://www.cci.uncc.edu">
+    <span class="glyphicon glyphicon-flash"></span> The School
+    </a>
+    <a type="button" class="btn btn-lg btn-default"
+    href="https://twitter.com/CCICareer">
+    <span class="glyphicon glyphicon-flash"></span> The Doc
+    </a>
+    <a type="button" class="btn btn-lg btn-default"
+    href="http://www.avidxchange.com">
+    <span class="glyphicon glyphicon-flash"></span> The Gig
+    </a>
+
+  </div>
+</div>
+
+<div class="container">
+  <div class="alert alert-info text-center" role="alert">
+    ATTENTION STUDENTS: To deploy your own copy, and learn the fundamentals
+    of the Heroku platform, head over to the <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs"
+    class="alert-link">Getting Started with Node on Heroku</a> tutorial.
+  </div>
+
+  <hr>
+
+  <div class="row">
+    <div class="col-md-6">
+      <h3><span class="glyphicon glyphicon-info-sign"></span> BUILD THIS APP!!!!</h3>
+      <ul>
+        <li>This app was deployed to Heroku, either using Git or by using
+            <a href="https://github.com/heroku/node-js-getting-started">Heroku Button</a> on the repository.</li>
+
+        <li>When Heroku received the source code, it fetched all the dependencies in the
+            <a href="https://github.com/heroku/node-js-getting-started/blob/master/package.json">package.json</a>, creating a deployable slug.</li>
+        <li>The platform then spins up a dyno, a lightweight container that provides an isolated
+            environment in which the slug can be mounted and executed.</li>
+        <li>You can scale your app, manage it, and deploy over
+            <a href="https://addons.heroku.com/">150 add-on services</a>, from the Dashboard or CLI.</li>
+                <ul>
+                    <li><code>git clone https://github.com/heroku/node-js-getting-started.git</code> - this will create a local copy of the source code for the app</li>
+                    <li>I DID THIS FOR SPACING</li>
+
+                </ul>
+      </ul>
+
+
+      <h3><span class="glyphicon glyphicon-info-sign"></span>
+          Keep Going</h3>
+      <ul>
+        <li><a href="https://www.edx.org">
+            Keep Learning</a></li>
+        <li><a href="http://www.meetup.com/find/events/?allMeetups=false&keywords=developer&radius=5&userFreeform=Charlotte%2C+NC&mcId=z28201&mcName=Charlotte%2C+NC">
+            Yes Meet People, the other choosen ones</a></li>
+        <li><a href="https://www.linkedin.com">And stay connected, like a pro</a></li>
+        <li><a href="https://www.linkedin.com/vsearch/f?keywords=cci%20dean%27s%20ambassador&trk=tyah&trkInfo=clickedVertical%3Aautocomplete%2CclickedEntityId%3A1%2Cidx%3A1-1-1%2CtarId%3A1468300111824%2Ctas%3ACCI%20dean%27s%20amba">
+            Talk to these people</a></li>
+      </ul>
+
+
+
+
+    </div>
+
+    <div class="col-md-6">
+      <h3><span class="glyphicon glyphicon-link"></span> KEEP BUILDING</h3>
+      <ul>
+        <li>If you are following the
+            <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">
+                Getting Started</a> guide, then please head back to the tutorial and follow the next steps!</li>
+        <li>If you deployed this app by deploying the Heroku Button, then in a command line shell, run:</li>
+        <ul>
+          <li><code>git clone https://github.com/heroku/node-js-getting-started.git</code> - this will create a local copy of the source code for the app</li>
+          <li><code>cd node-js-getting-started</code> - change directory into the local source code repository</li>
+          <li><code>heroku git:remote -a &lt;your-app-name></code> - associate the Heroku app with the repository</li>
+          <li>You'll now be set up to run the app locally, or <a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs#push-local-changes">deploy changes</a> to Heroku</li>
+        </ul>
+      </ul>
+
+      <h3><span class="glyphicon glyphicon-link"></span> Helpful Links</h3>
+      <ul>
+        <li><a href="https://www.heroku.com/home">Heroku</a></li>
+        <li><a href="https://devcenter.heroku.com/">Heroku Dev Center</a></li>
+        <li><a href="https://devcenter.heroku.com/articles/getting-started-with-nodejs">Getting Started with Node on Heroku</a></li>
+        <li><a href="https://devcenter.heroku.com/articles/deploying-nodejs">Deploying Node Apps on Heroku</a></li>
+      </ul>
+    </div>
+  </div> <!-- row -->
+
+
+   <div class="alert alert-info text-center" role="alert">
+    Please DO work through the Getting Started guide, even if you do know
+    how to build such an application.  The guide covers the basics of working
+    with Heroku, and will familiarize you with all the concepts you need in order
+    to build and deploy your own apps.
+  </div>
+
+</div>
+
+
+</body>
+</html>
